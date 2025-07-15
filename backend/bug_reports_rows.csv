@@ -1,0 +1,130 @@
+id,content,created_at,summary,steps,expected,actual,platform,priority,ticket_id
+341e3054-252a-4fda-b33f-724522e4069e,"
+### 🐞 Bug Report Summary
+User unable to upload KYC documents on profile page
+
+### 🔁 Steps to Reproduce
+1. Open the YouPay app and log in with valid user credentials
+2. Navigate to the “Profile” or “KYC” section from the bottom navigation
+3. Tap on the “Upload Documents” button
+4. Choose a valid document file (e.g., PDF, JPEG)
+5. Attempt to upload the selected document
+6. Observe whether the upload completes or fails
+
+
+
+### ✅ Expected Behavior
+The user should be able to upload a valid KYC document (PDF/JPEG) without any error.  
+After selecting a file, the app should show a success confirmation (e.g., “Document uploaded successfully”) and reflect the uploaded file in the KYC status.
+
+
+
+
+### ❌ Actual Behavior
+After selecting a valid KYC document, the upload either:
+- Fails silently without any feedback
+- Shows a generic error (“Upload failed. Try again.”)
+- Gets stuck on the loading spinner indefinitely
+The uploaded file is not reflected in the KYC status.
+
+
+### 🖥️ Affected Platform(s)
+Web
+
+### ⏳ Suggested Priority
+High
+
+### 🎫 Ticket ID
+YPAY-1752522038948
+",2025-07-14 20:33:22.539747+00,,,,,,,
+3c676085-1868-4af4-8577-e580cd674e80,"
+### 🐞 Bug Report Summary
+Chatbot fails to set reminder for EMI payment prompt
+
+### 🔁 Steps to Reproduce
+1. Open chatbot at https://staging.youpay.ai/chat 2. Login with test credentials 3. Enter prompt: ""Remind me to pay EMI tomorrow"" 4. Observe the response
+
+
+### ✅ Expected Behavior
+Bot should confirm: “Got it! I’ll remind you tomorrow about your EMI payment.”
+
+
+
+
+### ❌ Actual Behavior
+Bot replies: “Sorry, I didn’t understand that. Can you rephrase?”
+
+
+### 🖥️ Affected Platform(s)
+Android
+
+### ⏳ Suggested Priority
+Medium
+
+### 🎫 Ticket ID
+YPAY-1752500768279
+",2025-07-14 14:31:32.400865+00,,,,,,,
+8bd56417-6592-462c-b894-71cc5716cb1c,"
+### 🐞 Bug Report Summary
+Loan offer banner overlaps with chat input box
+
+### 🔁 Steps to Reproduce
+Open the chat interface on mobile\n2. Scroll down to view chat messages\n3. Observe the bottom area\n4. Try typing a message when the banner is visible
+
+
+### ✅ Expected Behavior
+Chat input should remain accessible and not hidden behind any UI element like banners
+
+
+### ❌ Actual Behavior
+Loan offer banner overlaps the chat input field, making it difficult to type messages.
+
+### 🖥️ Affected Platform(s)
+iOS
+
+### ⏳ Suggested Priority
+High
+
+### 🎫 Ticket ID
+YPAY-1752568371908
+",2025-07-15 08:36:02.820795+00,Loan offer banner overlaps with chat input box,"Open the chat interface on mobile\n2. Scroll down to view chat messages\n3. Observe the bottom area\n4. Try typing a message when the banner is visible
+","Chat input should remain accessible and not hidden behind any UI element like banners
+","Loan offer banner overlaps the chat input field, making it difficult to type messages.",iOS,High,YPAY-1752568371908
+af925ce4-8145-4d4d-9359-64adcfba9cfb,"
+### 🐞 Bug Report Summary
+User unable to upload KYC documents on profile page
+
+### 🔁 Steps to Reproduce
+1. Open the YouPay app and log in with valid user credentials
+2. Navigate to the “Profile” or “KYC” section from the bottom navigation
+3. Tap on the “Upload Documents” button
+4. Choose a valid document file (e.g., PDF, JPEG)
+5. Attempt to upload the selected document
+6. Observe whether the upload completes or fails
+
+
+
+### ✅ Expected Behavior
+The user should be able to upload a valid KYC document (PDF/JPEG) without any error.  
+After selecting a file, the app should show a success confirmation (e.g., “Document uploaded successfully”) and reflect the uploaded file in the KYC status.
+
+
+
+
+### ❌ Actual Behavior
+After selecting a valid KYC document, the upload either:
+- Fails silently without any feedback
+- Shows a generic error (“Upload failed. Try again.”)
+- Gets stuck on the loading spinner indefinitely
+The uploaded file is not reflected in the KYC status.
+
+
+### 🖥️ Affected Platform(s)
+Web
+
+### ⏳ Suggested Priority
+High
+
+### 🎫 Ticket ID
+YPAY-1752522038948
+",2025-07-14 20:27:39.110145+00,,,,,,,

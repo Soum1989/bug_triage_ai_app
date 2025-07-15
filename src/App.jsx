@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import BugForm from "./components/BugForm";
-import BugOutput from "./components/BugOutput";
+import BugForm from "./components/BugForm";       // ✅ update this if BugForm is also inside /components
+import BugOutput from "./components/BugOutput";   // ✅ correct path based on your folder structure
 
 function App() {
   const [markdown, setMarkdown] = useState("");
-  const [bugData, setBugData] = useState(null);
 
   const handleBugSubmit = (data) => {
     const md = `
@@ -30,13 +29,12 @@ ${data.priority}
 ${data.ticket_id}
 `;
     setMarkdown(md);
-    setBugData(data);
   };
 
   return (
     <div>
       <BugForm onSubmit={handleBugSubmit} />
-      {markdown && bugData && <BugOutput markdown={markdown} bugData={bugData} />}
+      {markdown && <BugOutput markdown={markdown} />}
     </div>
   );
 }
