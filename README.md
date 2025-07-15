@@ -1,3 +1,94 @@
+# 🐞 Bug Triage AI App
+
+A lightweight web app for logging, viewing, filtering, and exporting bug reports — built using **React**, **Supabase**, and **Papaparse**.
+
+## ✨ Features
+
+- 📝 Log bugs with structured fields: summary, steps, expected vs actual behavior, platform, priority, and ticket ID.
+- 📄 Auto-generate Markdown summaries.
+- 📤 Send bug reports directly to Supabase.
+- 🔍 Filter by priority in the dashboard.
+- 📋 Copy Markdown to clipboard.
+- ⬇️ Export filtered bug list as CSV.
+- 💾 Export all bug reports as `.xlsx` via backend script.
+
+## 🔧 Tech Stack
+
+- React (Frontend)
+- Supabase (Database & backend)
+- Papaparse (CSV export)
+- Python (XLSX export script)
+
+## 🧱 Project Structure
+bug_triage_ai_app/
+│
+├── src/
+│ ├── components/
+│ │ ├── BugForm.jsx # Bug submission form
+│ │ └── BugOutput.jsx # Markdown + Supabase integration
+│ └── App.jsx # Main app logic
+│
+├── backend/
+│ └── export_bug_reports.py # Exports Supabase bug reports to XLSX
+│
+├── public/
+├── supabaseClient.js # Supabase config
+└── README.md
+
+
+## 🚀 Deployment
+
+Live demo hosted on **Vercel**  
+> 🔗 [bug-triage-ai-app.vercel.app](https://bug-triage-ai-app.vercel.app) _(replace with actual URL)_
+
+To deploy yourself:
+
+```bash
+# Build locally
+npm run build
+
+# Push to GitHub
+git remote add origin https://github.com/Soum1989/bug_triage_ai_app.git
+git push -u origin main
+
+# Then connect to Vercel (via dashboard or CLI)
+
+### 🐞 Bug Report Summary
+Loan offer banner overlaps with chat input box
+
+### 🔁 Steps to Reproduce
+1. Open the chat interface on mobile
+2. Scroll down to view chat messages
+3. Observe the bottom area
+4. Try typing a message when the banner is visible
+
+### ✅ Expected Behavior
+Chat input should remain accessible and not hidden behind any UI element like banners
+
+### ❌ Actual Behavior
+Loan offer banner overlaps the chat input field, making it difficult to type messages.
+
+### 🖥️ Affected Platform(s)
+iOS
+
+### ⏳ Suggested Priority
+High
+
+### 🎫 Ticket ID
+YPAY-1752568371908
+
+📦 Export to XLSX
+
+cd backend/
+python export_bug_reports.py
+
+🧠 Inspiration
+Built for streamlining bug triage during UAT cycles, sprint testing, and internal QA — especially for AI/chatbot-based flows.
+
+Contributors:
+👩‍💻 Soumyendu Dey
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
