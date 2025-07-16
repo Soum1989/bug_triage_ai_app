@@ -39,7 +39,7 @@ bug_triage_ai_app/
 ## 🚀 Deployment
 
 Live demo hosted on **Vercel**  
-> 🔗 [bug-triage-ai-app.vercel.app](https://bug-triage-ai-app.vercel.app) _(replace with actual URL)_
+> 🔗 https://bug-triage-ai-app-git-master-taursoum-3328s-projects.vercel.app/
 
 To deploy yourself:
 
